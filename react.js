@@ -29,6 +29,9 @@ stuffArray.map(function(el, i){
 })
 
 // your for loop here, you can use the same stuffArray array
+for (let i=0, i<stuffArray.length; i++){
+  console.log(`${stuffArray[i]} is at index: ${i}`)
+}
 
 
 // 3. Basic sorting: Find the cheapest price -- you are given a list of prices and need to find the signle lowest price from the array. Write a function that takes in an array of numbers, and returns the lowest price
