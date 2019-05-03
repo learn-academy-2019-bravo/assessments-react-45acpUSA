@@ -1,7 +1,24 @@
 // React Assessments
 
 // 1. Write a simple React component that simply prints "I am a component" to the screen. Be sure to include all necessary imports, exports, etc...
-a
+
+import React, { Component } from 'react'
+// import ReactDOM from 'react-dom'
+// ^^ necessary in cases where you want to directly render without exporting to the root html file.
+// syntax: ReactDOM.render(<Sentient />, document.getElementById('App'))
+
+export default class Sentient extends Component {
+  render(){
+    return(
+      <div>
+        <p>I am a Component</p>
+      </div>
+    )
+  }
+}
+
+// ReactDOM.render(<Sentient />, document.getElementById('App'))
+
 // 2. Practice With Loops: In React, we often use the map function to iterate over an array held in state. To get more practice with this, write a vanilla javascript for loop that outputs the same thing as the map function below.
 
 
