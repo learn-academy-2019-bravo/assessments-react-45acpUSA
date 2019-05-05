@@ -18,16 +18,16 @@ Dumb, or "pure", components are those whose sole function is to render. This mea
 Smart, or "impure", components are essentially the opposite of dumb components. Their sole function is to house the logic to allow interaction and functionality of different things on the DOM. This means that they either hold state and pass down props, have other methods other than just render (but will have render as well), or a combination of both. Smart components don't normally control the overall layout of the DOM, but more often a small piece that has functionality.
 
  //Googled Answer
-Google confirms my explanation of smart and dumb components. 
+Google confirms my explanation of smart and dumb components.
 
 #### 3. When we use "yarn add ..." in the terminal - what is yarn doing? And what file will always be automatically updated after we add a package with yarn?
 
 
  //Your Answer
-
+Yarn is one of a few different package managers. When we use yarn add, we are simply adding a package to be able to use. The conceptuality of yarn and other package managers is still beyond my understanding, but I believe that the PWD or present working directory (directory you are currently in within terminal) is the file that will always be automatically updated after we add a package with yarn.
 
  //Googled Answer
-
+I was so wrong! The files that are automatically updated are the package.json and yarn.lock files. This enables other developers working on the project to get the same dependencies as yourself.
 
 #### 5. There are three mistakes in this code that would cause it to break our application. Find the mistakes and fix them:
 
