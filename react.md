@@ -13,10 +13,12 @@ Try your best to answer each question on your own before looking up the answer o
 
 
  //Your Answer
+Dumb, or "pure", components are those whose sole function is to render. This means that they do not have any other methods other than render and do not hold their own state or pass down props to any possible children components.
 
+Smart, or "impure", components are essentially the opposite of dumb components. Their sole function is to house the logic to allow interaction and functionality of different things on the DOM. This means that they either hold state and pass down props, have other methods other than just render (but will have render as well), or a combination of both. Smart components don't normally control the overall layout of the DOM, but more often a small piece that has functionality.
 
  //Googled Answer
-
+Google confirms my explanation of smart and dumb components. 
 
 #### 3. When we use "yarn add ..." in the terminal - what is yarn doing? And what file will always be automatically updated after we add a package with yarn?
 
