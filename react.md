@@ -33,27 +33,24 @@ I was so wrong! The files that are automatically updated are the package.json an
 
     import React, { Component } from 'react';
 
-    class Recipes {
+    class Recipes extends Component {
       constructor(props){
         super(props)
         this.state = {
-          recipes:
+          recipes: [
             {name: 'Meatballs'},
             {name: 'Mac & Cheese'}
-
+          ]
         }
       }
 
       render() {
-
-        return (
-
-          let recipes = this.state.recipes.map(function(recipe){
-            return(
-              <li key={recipe.name}>{recipe.name}</li>
+        let recipes = this.state.recipes.map(function(recipe){
+          return(
+            <li key={recipe.name}>{recipe.name}</li>
             )
-          })
-
+            })
+        return (
           <ul>
             {recipes}
           </ul>
