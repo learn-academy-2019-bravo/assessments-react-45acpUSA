@@ -63,10 +63,10 @@ I was so wrong! The files that are automatically updated are the package.json an
 #### 6. Name three html input types. (NOTE: text is the default type - so it doesn't count in this case)
 
  //Your Answer
-
+password, email and number
 
  //Googled Answer
-
+Google confirmed my answer. There A LOT more though.
 
  #### 7. How would you explain state to a friend who doesn't know code?
 
