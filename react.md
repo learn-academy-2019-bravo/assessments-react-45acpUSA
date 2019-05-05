@@ -83,9 +83,11 @@ Much more concise and does not require an elaborate analogy, assuming most peopl
 
 
  //Your Answer
+State is like the global variables for that component. You may call upon them anywhere within that component, though it is typically done within a method. Like the googled answer above states (heh get it?), it is a way to update our UI based on events. The elements housed within state will usually be altered through events, or anything intentionally designed to alter state. For example, you may have counter on your page with a count set to zero within state and a method set to an onClick event that increase the counter every click. Another way to think of state is that it usually houses elements that will be displayed on the DOM and can be altered depending on the designed functionality of the component.
 
+Properties, or more commonly referred to as props, are simply information that is meant to be passed down from a parent component to a child component. The syntax of passing down a prop looks very similar to an html tag attribute, but the naming convention is the big giveaway. You can, and should, name your props according to what their current name is or what their intended function is. For example, if I wanted to pass down a method named handleClick, I would pass it as handleClick={this.handleClick}. This is intended to eliminate confusion. Methods are not the only things that can be passed down. State can also be passed down to children components. This can allow for the concept of separation of concerns which allows you to manipulate a parent component's state from a child component. The interaction between parent and children component is necessary for complex functions to become reality on a DOM.
 
  //Googled Answer
-
+There are some convoluted answers out there but what they are essentially saying is that state is what lives in the parent component and props are what's passed down (usually state) to the child(ren) component(s).
 
 #### 9. Write a paragraph or so about your experience with building tic-tac-toe. Some topics to start with might be: things you learned about yourself, concepts from React that stood out to you, something about pair programming (if you paired), or the experience of building something in code from scratch.
