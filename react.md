@@ -71,10 +71,13 @@ Google confirmed my answer. There A LOT more though.
  #### 7. How would you explain state to a friend who doesn't know code?
 
  //Your Answer
+I would use the analogy of physical states (chemistry) with an example of water. Let's assume room temperature is about 68 degrees F. The current state of water would be liquid. If we were to do something to change our environment, let's say make it really cold, and we now have a room temp that is below 32 degrees F, this water would change state. The water would now be solid and become ice. If we raise the temperature back to that comfortable 68 degrees, the state would change again and become liquid once more. If the room temperature would to change one last time and increase to above 212 degrees F, it would change state to a gas.
 
+There are also multiple floors in this analogous building and there is one rule: the water ALWAYS starts on the top floor. Water can be moved down to to the floor below but never brought back up. The only thing you can do on a floor below to interact with the physical state of the water above is to change the temperature. Nevertheless, when water is moved from one floor down to another, it is in the same physical state that it was before being moved. For example, if water was solid on the top floor and brought down one floor, it would still be solid. Unless something else acts upon it to change its state will it remain solid.
 
  //Googled Answer
-
+"State is a way to update our UI based on events."
+Much more concise and does not require an elaborate analogy, assuming most people would know what UI or user interface is.
 
  #### 8. What is the difference between component state and props? Your answer should include a short explanation of both.
 
