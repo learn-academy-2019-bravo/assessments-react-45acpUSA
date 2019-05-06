@@ -91,3 +91,4 @@ Properties, or more commonly referred to as props, are simply information that i
 There are some convoluted answers out there but what they are essentially saying is that state is what lives in the parent component and props are what's passed down (usually state) to the child(ren) component(s).
 
 #### 9. Write a paragraph or so about your experience with building tic-tac-toe. Some topics to start with might be: things you learned about yourself, concepts from React that stood out to you, something about pair programming (if you paired), or the experience of building something in code from scratch.
+Not required.
